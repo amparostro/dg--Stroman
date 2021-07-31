@@ -1,0 +1,17 @@
+article{
+    margin:50px;
+    width: 300px;
+}
+
+table{
+    width: 300%;
+    text-align: center;
+    background-color: #98b9ec;
+    border-radius: 15px;
+    border: #7093c7
+}
+
+td{
+    border-color: #88ade4;
+    border-style: solid;
+}

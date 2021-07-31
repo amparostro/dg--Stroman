@@ -1,0 +1,156 @@
+*{ margin:0;padding:0;}
+
+header{
+background-image: url(../img/FONDO_Mesa\ de\ trabajo\ 1.jpg);
+background-position:center;
+background-repeat:no-repeat;
+background-size: cover;
+padding: 150px;
+font-family: 'Quicksand', sans-serif
+}
+ 
+body {
+    background-image: url(../img/DEGRADE.jpg);
+    background-size: cover;
+
+}
+
+ul{ 
+    list-style-type:none; 
+    overflow:hidden;
+    font-size: 25px;
+    margin: 50px;
+    padding: 10px;  
+}
+
+li {
+display: inline-block;
+}
+
+a{
+   text-decoration: none;
+}
+
+
+
+ h2{ 
+    font-family: 'Quicksand', sans-serif;
+     color:  #DC8079;
+}
+
+h3{
+    color: darkblue;
+}
+
+p{ font-family: 'Quicksand', sans-serif
+}
+
+
+h1{ 
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(8, 107, 107);
+
+}
+
+ #tituloblog{
+         justify-content: center;
+ }
+
+
+footer{ 
+    background-color: rgb(232, 229, 229);
+    height: 80px;
+    padding: 20px;
+    text-align: right;
+  
+    
+}
+.sobremi{
+ padding: 50px;
+ margin: 100px;
+ 
+}
+ 
+.imagHome{
+    display: flex;
+    padding: 20px;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+    align-items:center ;
+    margin: 5px;
+    text-align: center;
+}
+
+
+
+.formulario{
+    width: 1000px;
+    margin:60px;
+    background-color: lightseagreen;
+    padding: 100px;
+    color: white;
+    border-radius: 55px;
+    text-align: left;
+    font-size: 30px;
+}
+
+
+
+.grid-container{
+
+    background-color: lavender;
+  
+    height: 1020px;
+    text-align: center;
+
+    
+    display: grid;
+    gap: 10px;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-areas: 
+    "tituloblog tituloblog tituloblog"
+    "brand tips recursos" 
+    "color apps recursos" 
+   
+ }
+
+
+#tituloblog {
+    grid-area: tituloblog;
+    background-color: moccasin; 
+    font-size: 55px;
+
+}
+
+.brand{
+    grid-area: brand;
+    background-color: mistyrose;
+}
+
+.tips{
+    grid-area: tips;
+    background-color: mistyrose;
+}
+
+.color{
+    grid-area: color;
+    background-color: mistyrose;
+}
+ .apps{
+    grid-area: apps;
+    background-color: mistyrose;
+ }
+
+ .recursos{
+     border-radius: 80px;
+     font-size: 20px;
+     color: lightsteelblue;
+     display: flex;
+     justify-content: space-evenly;
+     flex-direction: column;
+    background-color: lightseagreen;
+    grid-template-columns: 100%;
+    grid-area: recursos
+    
+ }
+
